@@ -1,0 +1,37 @@
+exports[`test TodoList snapshot 1`] = `
+<div
+  className="todo">
+  <input
+    className="todo__entry"
+    onKeyDown={[Function bound onSubmit]}
+    placeholder="Add todo"
+    type="text" />
+  <ul
+    className="todo__list">
+    <li
+      className="todo__item"
+      onClick={[Function anonymous]}>
+      <Todo
+        todo={
+          Object {
+            "id": "1",
+            "isDone": true,
+            "text": "hehe"
+          }
+        } />
+    </li>
+    <li
+      className="todo__item"
+      onClick={[Function anonymous]}>
+      <Todo
+        todo={
+          Object {
+            "id": "2",
+            "isDone": false,
+            "text": "hehe1"
+          }
+        } />
+    </li>
+  </ul>
+</div>
+`;
